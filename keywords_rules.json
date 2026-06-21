@@ -1,0 +1,77 @@
+[
+  {
+    "name": "连接超时",
+    "pattern": "timeout",
+    "ignore_case": true
+  },
+  {
+    "name": "空指针异常",
+    "pattern": "NullPointerException",
+    "ignore_case": false
+  },
+  {
+    "name": "连接被拒绝",
+    "pattern": "connection refused",
+    "ignore_case": true
+  },
+  {
+    "name": "数据库死锁",
+    "pattern": "deadlock",
+    "ignore_case": true
+  },
+  {
+    "name": "内存溢出",
+    "pattern": "(out of memory|OOM|heap memory)",
+    "ignore_case": true
+  },
+  {
+    "name": "SQL注入",
+    "pattern": "SQL injection",
+    "ignore_case": true
+  },
+  {
+    "name": "登录失败",
+    "pattern": "(failed login|login attempt)",
+    "ignore_case": true
+  },
+  {
+    "name": "支付失败",
+    "pattern": "payment",
+    "ignore_case": true
+  },
+  {
+    "name": "SMTP邮件错误",
+    "pattern": "(SMTP|send email)",
+    "ignore_case": true
+  },
+  {
+    "name": "连接池耗尽",
+    "pattern": "(connection pool exhausted|pool exhausted)",
+    "ignore_case": true
+  },
+  {
+    "name": "暴力攻击",
+    "pattern": "(brute force|bruteforce)",
+    "ignore_case": true
+  },
+  {
+    "name": "证书过期",
+    "pattern": "certificate.*expire",
+    "ignore_case": true
+  },
+  {
+    "name": "磁盘空间不足",
+    "pattern": "(disk space|out of space)",
+    "ignore_case": true
+  },
+  {
+    "name": "Redis错误",
+    "pattern": "Redis",
+    "ignore_case": true
+  },
+  {
+    "name": "消息队列错误",
+    "pattern": "(RabbitMQ|MessageQueue|queue)",
+    "ignore_case": true
+  }
+]

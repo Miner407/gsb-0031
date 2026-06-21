@@ -1,0 +1,30 @@
+2024-01-15 08:30:01 INFO [main] Application started successfully
+2024-01-15 08:30:05 INFO [DatabaseManager] Connecting to database at localhost:5432
+2024-01-15 08:30:06 INFO [DatabaseManager] Database connection established
+2024-01-15 08:31:12 WARNING [AuthService] Failed login attempt for user admin from 192.168.1.100
+2024-01-15 08:32:15 ERROR [PaymentProcessor] Connection timeout when calling payment gateway after 30000ms
+2024-01-15 08:32:16 ERROR [PaymentProcessor] Retry 1/3 failed: Connection timeout
+2024-01-15 08:32:47 ERROR [PaymentProcessor] Retry 2/3 failed: Connection timeout
+2024-01-15 08:33:18 ERROR [PaymentProcessor] Retry 3/3 failed: Connection timeout
+2024-01-15 08:33:19 FATAL [PaymentProcessor] All payment gateway retries exhausted. Order #12345 failed.
+2024-01-15 09:00:00 INFO [Scheduler] Running daily cleanup job
+2024-01-15 09:05:23 WARNING [CacheManager] Cache memory usage at 85%, approaching limit
+2024-01-15 09:10:45 ERROR [OrderService] NullPointerException when processing order #12346 at line 245
+2024-01-15 09:15:30 ERROR [DatabaseManager] Deadlock detected on table orders, transaction rolled back
+2024-01-15 09:20:00 INFO [ApiGateway] Received 1000 requests in last minute
+2024-01-15 09:25:12 WARNING [RateLimiter] User 5678 exceeded rate limit: 150/100 requests per minute
+2024-01-15 09:30:00 ERROR [NotificationService] Failed to send email: SMTP connection refused on port 587
+2024-01-15 09:35:22 ERROR [NotificationService] Failed to send email: SMTP connection refused on port 587
+2024-01-15 09:40:15 INFO [main] Health check passed
+2024-01-15 10:00:00 ERROR [OrderService] NullPointerException when processing order #12347 at line 245
+2024-01-15 10:05:30 ERROR [OrderService] NullPointerException when processing order #12348 at line 245
+2024-01-15 10:10:00 WARNING [MemoryMonitor] Heap memory usage: 1.8GB / 2GB (90%)
+2024-01-15 10:15:45 CRITICAL [Security] SQL injection attempt detected in query parameter 'id' from IP 10.0.0.5
+2024-01-15 10:20:00 ERROR [InventoryService] Out of stock for product SKU-999, quantity requested: 50
+2024-01-15 10:25:12 INFO [main] Background task completed
+2024-01-15 11:00:00 ERROR [DatabaseManager] Connection pool exhausted - all 50 connections in use
+2024-01-15 11:05:30 ERROR [DatabaseManager] Connection pool exhausted - all 50 connections in use
+2024-01-15 11:10:15 WARNING [AuthService] Multiple failed login attempts detected for user admin: 5 failures
+2024-01-15 11:15:00 ERROR [PaymentProcessor] Connection timeout when calling payment gateway after 30000ms
+2024-01-15 11:20:30 INFO [BackupManager] Starting daily backup
+2024-01-15 11:30:00 INFO [BackupManager] Backup completed successfully

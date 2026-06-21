@@ -1,0 +1,17 @@
+[2024-01-15T12:00:00.001] [ERROR] [ApiGateway] Upstream service timed out: user-service/health
+[2024-01-15T12:00:05.023] [ERROR] [ApiGateway] Upstream service timed out: user-service/profile
+[2024-01-15T12:00:10.045] [ERROR] [ApiGateway] Upstream service timed out: user-service/orders
+[2024-01-15T12:05:00.000] [WARNING] [LoadBalancer] Server backend-03 marked as unhealthy after 3 failed health checks
+[2024-01-15T12:10:00.000] [ERROR] [FileUpload] Disk space low on /data: only 512MB remaining
+[2024-01-15T12:15:30.000] [FATAL] [Kernel] Out of memory: Killed process 12345 (java) total-vm:8192MB
+[2024-01-15T12:20:00.000] [ERROR] [ElasticsearchClient] Cluster health status is RED
+[2024-01-15T12:25:00.000] [ERROR] [ElasticsearchClient] Failed to index document: circuit_breaking_exception
+[2024-01-15T12:30:00.000] [WARNING] [CertificateManager] SSL certificate for api.example.com will expire in 7 days
+[2024-01-15T12:35:00.000] [ERROR] [ConfigServer] Failed to load configuration from remote repository: 401 Unauthorized
+[2024-01-15T13:00:00.000] [INFO] [System] Performing routine maintenance
+[2024-01-15T13:05:00.000] [ERROR] [MessageQueue] Broker connection refused: RabbitMQ at localhost:5672
+[2024-01-15T13:10:00.000] [ERROR] [MessageQueue] Failed to publish message to queue: order.created - channel closed
+[2024-01-15T13:15:00.000] [CRITICAL] [Security] Brute force attack detected: 1000 failed SSH attempts from 45.33.32.156
+[2024-01-15T13:20:00.000] [ERROR] [RedisClient] Connection refused: localhost:6379, retrying in 5s
+[2024-01-15T13:25:00.000] [ERROR] [RedisClient] Connection refused: localhost:6379, retrying in 5s
+[2024-01-15T13:30:00.000] [ERROR] [RedisClient] Max retries exceeded connecting to Redis cluster
